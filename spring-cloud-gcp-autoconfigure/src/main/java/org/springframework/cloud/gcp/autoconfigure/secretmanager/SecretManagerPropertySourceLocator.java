@@ -39,7 +39,7 @@ public class SecretManagerPropertySourceLocator implements PropertySourceLocator
 
 	private final GcpProjectIdProvider projectIdProvider;
 
-	SecretManagerPropertySourceLocator(
+	public SecretManagerPropertySourceLocator(
 			SecretManagerServiceClient client,
 			GcpProjectIdProvider projectIdProvider) {
 		this.client = client;
